@@ -1,0 +1,408 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: rgba(42, 29, 7, 1.00);
+    background-color: rgba(214, 142, 3, 1.00);
+    border-color: rgba(214, 142, 3, 1.00);
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+a#sale-link:link {
+    color: rgb(35, 8, 173);
+    /* text-shadow: 3px 3px 14px rgba(33, 33, 33, 1); */
+}
+
+a#sale-link:hover {
+    color: rgb(42, 30, 112);
+    /* text-shadow: 3px 3px 14px rgb(27, 9, 65); */
+    text-decoration: underline;
+}
+
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/******************************** PAGE HEADERS ********************************/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/******************************** CONTENT CONTAINERS ********************************/
+
+.content-container  {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/******************************** CONTAINERS-WRAPPERS ********************************/
+
+.container-wrapper--red {
+    background-color: rgba(191, 55, 42, 1);
+    border-top: 5px solid rgba(140, 28, 28, 1);
+    border-bottom: 5px solid rgba(140, 28, 28, 1);
+}
+
+.container-wrapper--white {
+     background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1.00);
+    border-top: 5px solid rgba(140, 28, 28, 1);
+    /* border-top: 5px solid rgba(0,0,0, 1);
+    border-bottom: 5px solid rgba(0,0,0, 1); */
+    color: rgba(0, 0, 0,0.5);
+    position: relative;
+}
+
+/******************************** FOOTER ********************************/
+
+.opaque-footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/******************************** QUOTES ********************************/
+
+.quotes-container {
+
+}
+
+.media {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/******************************** FEATURES ********************************/
+
+.feature-block {
+    position: relative;
+}
+
+.features h2 {
+    text-align: center;
+    color: rgba(217, 189, 156, 1);
+}
+
+.feature    {
+    color: rgba(217, 189, 156, 1);
+    margin-bottom: 40px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.feature i  {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+/******************************** FAVORITES ********************************/
+
+.favorites-container {
+   background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorites h2 {
+    color: rgb(230, 226, 225);
+}
+
+/* .min--width {
+    min-width: 100px !important;
+} */
+
+.favorites tr{
+    color: rgba(190, 185, 184, 1.00);
+}
+
+.favorites thead tr, .favorites thead > tr > th{
+    border-top: 1px solid #58595e;
+    border-bottom: 2px solid #58595e;
+}
+
+.favorites tbody tr, .favorites tbody > tr > td{
+    border-top: 1px solid #303136;;
+}
+
+.table > thead tr {
+    color: rgb(230, 226, 225);
+    background-color: rgba(28, 28, 33, 0.5);
+}
+
+.table  i.fas {
+    color: gold;
+}
+
+tbody.whiskey-favorites  {
+    background-color: rgba(28, 28, 33, 0.5);
+}
+
+tbody.whiskey-favorites tr:hover {
+    color: rgb(233, 228, 227);
+    background-color: rgba(28, 28, 33, 0.6);
+}
+
+
+/******************************** DIVIDERS ********************************/
+.block-divider {
+    width: 50%;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    margin-bottom: 50px;
+}
+
+.block-divider--grey {
+    background-color: #303136;
+}
+
+.block-divider--maron {
+    background-color: rgba(140, 28, 28, 1);
+}
+.block-divider--lightgrey {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/******************************** NAVBAR ********************************/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/******************************** JUMBOTRON ********************************/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #f2dec3;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 4px 4px 14px rgba(45, 45, 54, 0.8);
+}
+
+.jumbotron .lead {
+    color: rgb(184, 138, 24);
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
+.mark, mark {
+    color: #f4deb8;
+    background-color: rgba(105, 80, 10, 1.00);
+    border-radius: 8px;
+}
+
+
+/******************************** BUTTONS ********************************/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+/****************** Feature buttons */
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.feature .btn:hover {
+    background-color: rgb(236, 231, 231);
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #d64626;
+}
+
+/******************************** POPOVER ********************************/
+
+.popover-content    {
+    color: white;
+}
+
+.popover-body   {
+    background-color: /*rgba(0,0,0,0.8)*/rgba(117, 89, 37, 1.00);
+    color: white;
+} 
+
+.bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
+  bottom: 0;
+  border-top-color: rgba(0, 0, 0, 0);
+}
+
+.bs-popover-top .arrow::after, .bs-popover-auto[x-placement^="top"] .arrow::after {
+  bottom: 1px;
+  border-top-color: grey;
+}
+
+/******************************** RESPONSIVE STYLING ********************************/
+
+/* 
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap 
+*/
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+}
+    
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .col-border {
+    content: "";
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid rgba(217, 189, 156, 1); 
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) 
+{ 
+    .col-border {
+    content: "";
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid rgba(217, 189, 156, 1); 
+    }
+}
+
+/*
+colors {
+
+    /* Color Theme Swatches in Hex */
+/* .Midnight-Moon-Whiskey-Branding-&-Packaging-1-hex { color: #D9BD9C; }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-2-hex { color: #F25D27; }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-3-hex { color: #BF372A; }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-4-hex { color: #8C1C1C; }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-5-hex { color: #0D0D0D; } */
+
+/* Color Theme Swatches in RGBA */
+/* .Midnight-Moon-Whiskey-Branding-&-Packaging-1-rgba { color: rgba(217, 189, 156, 1); }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-2-rgba { color: rgba(242, 93, 39, 1); }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-3-rgba { color: rgba(191, 55, 42, 1); }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-4-rgba { color: rgba(140, 28, 28, 1); }
+.Midnight-Moon-Whiskey-Branding-&-Packaging-5-rgba { color: rgba(13, 13, 13, 1); } */
