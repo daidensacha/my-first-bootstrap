@@ -113,6 +113,26 @@ a#sale-link:hover {
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
+    z-index: 11111;
+}
+
+.footer-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-container h1 {
+    text-align: center;
+    margin: 25px auto;
+}
+
+footer nav {
+    color: black;
+    z-index: 111111;
+}
+
+.footer-copyright {
+    padding: 0px 25px 20px;
 }
 
 /******************************** QUOTES ********************************/
